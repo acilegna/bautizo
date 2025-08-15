@@ -39,13 +39,11 @@ body {
 
 #title-celebration,
 #title-baby {
-  color: white; /* Cambia según la imagen */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 3px #b36317;
   margin: 0;
 }
 
 #title-celebration {
-  font-size: clamp(1.8rem, 4vw, 3rem);
   font-family: "Italianno", cursive;
   font-size: 77px;
   font-style: normal;
@@ -54,10 +52,54 @@ body {
 }
 
 #title-baby {
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
-   font-family: "Italianno", cursive;
+  font-family: "Italianno", cursive;
   font-size: 77px;
   font-style: normal;
   color: #b36317;
   letter-spacing: 8px;
+}
+@media (max-width: 1199px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 65px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+}
+@media (max-width: 767px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 575px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 55px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 513px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 393px) {
+  #title-celebration,
+  #title-baby {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
 }
