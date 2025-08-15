@@ -61,8 +61,8 @@
           </audio>
         </div>
 
-         
-          <p id="mjs-baptism"></p>
+
+        <p id="mjs-baptism"></p>
         <h4 id="text-invitation">Tenemos el gusto de invitarte en este día tan especial</h4>
         <div class="lineas-con-texto">
           <hr>
@@ -109,24 +109,48 @@
           </div>
 
         </div>
+        <!--  <div class="row w-100 align-items-center" id="contacto">
+          <span class="text-center" id="entheos">CREADO POR
+            ENTHEOSMULTIMEDIA</span>
+          <div class="col text-center">
+            <button class="btn btn-light" onclick="location.href='https://w.app/entheos'" target="_blank"
+              id="btnContacto">
+              CONTACTANOS PARA HACER TU INVITACION</button>
+          </div>
+        </div> -->
+        <footer class="foot">
+          
+            <div class="row align-items-center text-center">
+              <div class="col-12 mb-2">
+                <span id="entheos">CREADO POR ENTHEOSMULTIMEDIA</span>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-light" onclick="window.open('https://wa.link/xg1pxo','_blank')" id="btnContacto">
+                  CONTACTANOS 
+                </button>
+              </div>
+            </div>
+          
+        </footer>
+ 
 
 
       </div>
-<script>
-  const text = `Señor, hoy me presentan ante ti para ser bañado con la gracia de tu amor, toma mi pequeño corazón en tus benditas manos y jamás te separes de mí.`;
-  const p = document.getElementById("mjs-baptism");
-  let index = 0;
+      <script>
+        const text = `Señor, hoy me presentan ante ti para ser bañado con la gracia de tu amor, toma mi pequeño corazón en tus benditas manos y jamás te separes de mí.`;
+        const p = document.getElementById("mjs-baptism");
+        let index = 0;
 
-  function typeWriter() {
-    if (index < text.length) {
-      p.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(typeWriter, 50); // Velocidad de escritura (ms)
-    }
-  }
+        function typeWriter() {
+          if (index < text.length) {
+            p.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeWriter, 50); // Velocidad de escritura (ms)
+          }
+        }
 
-  window.onload = typeWriter; // Ejecuta al cargar la página
-</script>
+        window.onload = typeWriter; // Ejecuta al cargar la página
+      </script>
     </div>
   </div>
 </body>

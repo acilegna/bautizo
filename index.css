@@ -187,6 +187,33 @@ audio {
   font-family: "Cormorant Garamond", serif;
 }
 /**************************/
+ .foot{
+  
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+#btnContacto {
+  font-size: 9px;
+
+  color: #72360d;
+  border-color: #72360d;
+  transition: all 0.3s ease;
+}
+#btnContacto:hover {
+  background-color: #72360d;
+  color: white;
+  transform: scale(1.05);
+}
+
+ 
+#entheos {
+  font-size: 8px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  color: rgb(43, 0, 99);
+}
+
 
 @media (max-width: 1199px) {
   #title-celebration,
