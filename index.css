@@ -25,191 +25,39 @@ body {
   background-attachment: fixed;
 }
 
-h1#title-celebration {
+.contenedor-img {
+  position: relative;
+}
+
+.contenedor-titulos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#title-celebration,
+#title-baby {
+  color: white; /* Cambia según la imagen */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+#title-celebration {
+  font-size: clamp(1.8rem, 4vw, 3rem);
   font-family: "Italianno", cursive;
   font-size: 77px;
   font-style: normal;
   color: #b36317;
-  position: absolute; /* Necesario para que top y left funcionen */
-  top: 17%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
 }
-h2#title-baby {
+
+#title-baby {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+   font-family: "Italianno", cursive;
+  font-size: 77px;
+  font-style: normal;
   color: #b36317;
-  font-family: "Italianno", cursive;
-  font-size: 79px;
-  font-style: italic;
-  position: absolute; /* Necesario para que top y left funcionen */
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
-}
-#mjs-baptism {
-  color: #242424;
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  margin-bottom: 25px;
-  margin-top: 30px;
-}
-.cont-baptism {
-  background-color: rgba(3, 168, 168, 0);
-  margin: 0 60px; /* márgenes iguales */
-  text-align: center;
-}
-.contenedor-img {
-  /*   height: 100vh;  
-   background-color: aqua;  
-  display: flex;
-  justify-content: center;  
-  align-items: center;   */
-}
-
-.contenedor-img img {
-  max-width: 100%; /* Evita que se desborde */
-  height: auto;
-  background-color: #778dee00;
-}
-
-#date {
-  color: #080f0b;
-  font-size: 25px;
-  letter-spacing: 5px;
-  font-family: "Suranna", serif;
-}
-#misa,
-#recepcion {
-  color: #020202;
-  font-size: 22px;
-  font-weight: 800;
-  font-family: "Cormorant Garamond", serif;
-}
-
-.datos {
-  font-size: 17px;
-  font-family: "Cormorant Garamond", serif;
-  color: #020202;
-  font-weight: 500;
-}
-#text-invitation {
-  font-size: 36px;
-  font-family: "Italianno", cursive;
-  color: #b36317;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-.church,
-.flatware {
-  color: #a3bdb0;
-  font-size: 35px !important;
-}
-.ubicacion {
-  font-size: 18px !important;
-  text-decoration: none;
-  color: #b36317;
-}
-.ubica {
-  font-size: 20px;
-  font-weight: 800;
-  text-decoration: none;
-  color: #b36317;
-  font-family: "Cormorant Garamond", serif;
-}
-.contenedor {
-  display: flex;
-  justify-content: center;
-  top: 20%;
-}
-.hora {
-  font-size: 22px;
-
-  font-family: "Suranna", serif;
-  color: #020202;
-}
-audio {
-  height: 24px;
-  display: flex;
-
-  justify-content: center;
-  width: 180px;
-}
-.text-espera {
-  font-size: 20px;
-  font-weight: 800;
-  padding-top: 20px;
-
-  color: #087740;
-  font-family: "Cormorant Garamond", serif;
-}
-/**************************/
-@media (max-width: 1321px) {
-  h1#title-celebration {
-    font-size: 77px;
-
-    top: 17%;
-
-    letter-spacing: 8px;
-  }
-  h2#title-baby {
-    font-size: 77px;
-
-    top: 35%;
-
-    letter-spacing: 8px;
-  }
-}
-
-@media (max-width: 991px) {
-  h1#title-celebration {
-    font-size: 62px;
-    top: 18%;
-    letter-spacing: 5px;
-  }
-  h2#title-baby {
-    font-size: 62px;     
-    letter-spacing: 5px;
-  }
-}
-
-@media (max-width: 767px) {
-  h1#title-celebration {
-    font-size: 47px;
-    top: 12%;
-    letter-spacing: 2px;
-  }
-  h2#title-baby {
-    font-size: 47px;
-    top: 23%;
-    letter-spacing: 2px;
-  }
-}
- 
-@media (max-width: 712px) {
-  h1#title-celebration {
-    font-size: 47px;
-    top: 5%;
-    letter-spacing: 2px;
-  }
-  h2#title-baby {
-    font-size: 47px;
-    top: 11%;
-    letter-spacing: 2px;
-  }
-}
-@media (max-width: 360px) {
-  h1#title-celebration {
-    font-size: 40px;
-    top: 7%;
-    letter-spacing: 2px;
-  }
-  h2#title-baby {
-    font-size: 40px;
-    top: 13%;
-    letter-spacing: 2px;
-  }
 }
