@@ -31,7 +31,7 @@ h1#title-celebration {
   font-style: normal;
   color: #b36317;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
@@ -42,7 +42,7 @@ h2#title-baby {
   font-size: 79px;
   font-style: italic;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 42%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
@@ -147,3 +147,104 @@ audio {
   font-family: "Cormorant Garamond", serif;
 }
 /**************************/
+@media (max-width: 1321px) {
+  h1#title-celebration {
+    top: 30%;
+  }
+  h2#title-baby {
+    top: 49%;
+  }
+}
+
+@media (max-width: 991px) {
+  h1#title-celebration {
+    font-size: 65px;
+    top: 20%;
+    letter-spacing: 5px;
+  }
+  h2#title-baby {
+    font-size: 65px;
+    top: 35%;
+    letter-spacing: 5px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  h1#title-celebration {
+    font-size: 50px;
+    top: 14%;
+    letter-spacing: 2px;
+  }
+  h2#title-baby {
+    font-size: 50px;
+    top: 27%;
+    letter-spacing: 2px;
+  }
+}
+
+
+@media (max-width: 575px) {
+h1#title-celebration {
+    font-size: 54px;
+    top: 20%;
+    letter-spacing: 2px;
+  }
+  h2#title-baby {
+   font-size: 54px;
+    top: 35%;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 481px) {
+h1#title-celebration {
+    font-size: 49px;
+    top: 15%;
+     
+  }
+  h2#title-baby {
+   font-size: 49px;
+    top: 27%;
+     
+  }
+}
+
+@media (max-width: 413px) {
+h1#title-celebration {
+    font-size: 40px;
+    top: 13%;
+     
+  }
+  h2#title-baby {
+   font-size: 40px;
+    top: 22%;
+     
+  }
+}
+
+@media (max-width: 383px) {
+h1#title-celebration {
+    font-size: 35px;
+    top: 13%;
+     
+  }
+  h2#title-baby {
+   font-size: 35px;
+    top: 22%;
+     
+  }
+}
+
+@media (max-width: 341px) {
+h1#title-celebration {
+    font-size: 30px;
+    top: 11%;
+     
+  }
+  h2#title-baby {
+   font-size: 30px;
+    top: 18%;
+     
+  }
+}
