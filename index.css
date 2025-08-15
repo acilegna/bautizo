@@ -182,6 +182,11 @@ audio {
     font-size: 40px;
     letter-spacing: 2px;
   }
+  .cont-baptism {
+    
+    margin: 0 30px; /* márgenes iguales */
+    
+  }
 }
 
 @media (max-width: 575px) {
