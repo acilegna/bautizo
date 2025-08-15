@@ -37,7 +37,11 @@ body {
   text-align: center;
   width: 90%;      /* Ocupar casi todo el ancho de la imagen */
   max-width: 800px; /* Limita para que no sea exagerado en pantallas grandes */
+ 
+  -webkit-text-stroke: 1px #b36317;
+  
 }
+
 
 #title-celebration,
 #title-baby {
@@ -193,7 +197,7 @@ audio {
     font-size: 28px;
   }
   #date {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 3px;
   }
   .flatware {
@@ -219,7 +223,7 @@ audio {
 @media (max-width: 393px) {
   #title-celebration,
   #title-baby {
-    font-size: 37px;
+    font-size: 38px;
     letter-spacing: 2px;
   }
 }
