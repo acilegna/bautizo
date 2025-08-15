@@ -24,23 +24,17 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.contenedor {
-  position: absolute; /* Necesario para que top y left funcionen */
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centrar completamente */
-  background-color: #0fa75100;
-}
+
 h1#title-celebration {
   font-family: "Italianno", cursive;
   font-size: 77px;
   font-style: normal;
   color: #b36317;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
-  letter-spacing: 7px;
+  letter-spacing: 8px;
 }
 h2#title-baby {
   color: #b36317;
@@ -48,10 +42,10 @@ h2#title-baby {
   font-size: 79px;
   font-style: italic;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 34%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
-  letter-spacing: 7px;
+  letter-spacing: 8px;
 }
 #mjs-baptism {
   color: #242424;
@@ -79,7 +73,7 @@ h2#title-baby {
 .contenedor-img img {
   max-width: 100%; /* Evita que se desborde */
   height: auto;
-  background-color: #0428c7;
+  background-color: #778dee00;
 }
 
 #date {
@@ -126,7 +120,11 @@ h2#title-baby {
   color: #b36317;
   font-family: "Cormorant Garamond", serif;
 }
-
+.contenedor {
+  display: flex;
+  justify-content: center;
+  top: 20%;
+}
 .hora {
   font-size: 22px;
 
@@ -149,131 +147,104 @@ audio {
   font-family: "Cormorant Garamond", serif;
 }
 /**************************/
-@media (max-width: 1321px) {
+@media (max-width: 1316px) {
   h1#title-celebration {
     top: 30%;
   }
   h2#title-baby {
     top: 49%;
   }
-  .contenedor {
-    top: 70%;
-  }
 }
-
-@media (max-width: 1187px) {
+@media (max-width: 992px) {
   h1#title-celebration {
-    top: 27%;
-    font-size: 67px;
+    top: 20%;
+    font-size: 60px;
     letter-spacing: 5px;
   }
   h2#title-baby {
-    font-size: 67px;
-    top: 42%;
+    font-size: 60px;
+    top: 35%;
     letter-spacing: 5px;
-  }
-  .contenedor {
-    top: 65%;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   h1#title-celebration {
-    top: 20%;
-    font-size: 53px;
+    top: 17%;
+    font-size: 40px;
     letter-spacing: 3px;
   }
   h2#title-baby {
-    font-size: 53px;
+    font-size: 40px;
+    top: 28%;
+    letter-spacing: 3px;
+  }
+
+  .cont-baptism {
+    margin: 0 20px; /* márgenes iguales */
+  }
+  #text-invitation {
+    font-size: 30px;
+  }
+
+  #date {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 575px) {
+  h1#title-celebration {
+    top: 25%;
+    font-size: 47px;
+    letter-spacing: 3px;
+  }
+  h2#title-baby {
+    font-size: 47px;
+    top: 38%;
+    letter-spacing: 3px;
+  }
+
+  #text-invitation {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 519px) {
+  h1#title-celebration {
+    top: 19%;
+    font-size: 47px;
+    letter-spacing: 3px;
+  }
+  h2#title-baby {
+    font-size: 47px;
     top: 32%;
     letter-spacing: 3px;
   }
-  .contenedor {
-    top: 45%;
-  }
-}
-@media (max-width: 767px) {
-  h1#title-celebration {
-    top: 15%;
-    font-size: 41px;
-    letter-spacing: 2px;
-  }
-  h2#title-baby {
-    font-size: 41px;
-    top: 23%;
-    letter-spacing: 2px;
-  }
-  .contenedor {
-    top: 35%;
-  }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 475px) {
   h1#title-celebration {
-    top: 18%;
-    font-size: 50px;
-    letter-spacing: 3px;
-  }
-  h2#title-baby {
-    font-size: 50px;
-    top: 30%;
-    letter-spacing: 3px;
-  }
-  .contenedor {
-    top: 46%;
-  }
-}
-
-@media (max-width: 512px) {
-  h1#title-celebration {
-    top: 15%;
-    font-size: 40px;
+    top: 17%;
+    font-size: 36px;
     letter-spacing: 1px;
   }
   h2#title-baby {
-    font-size: 40px;
-    top: 25%;
+    font-size: 36px;
+    top: 27%;
     letter-spacing: 1px;
   }
-  .contenedor {
-    top: 37%;
-  }
-}
 
-@media (max-width: 428px) {
-  h1#title-celebration {
-    top: 11%;
-    font-size: 35px;
-    letter-spacing: 0px;
+  #mjs-baptism {
+    font-size: 17px;
+    letter-spacing: 1px;
   }
-  h2#title-baby {
-    font-size: 35px;
-    top: 18%;
-    letter-spacing: 0px;
-  }
-  .contenedor {
-    top: 30%;
-  }
-  audio {
-    width: 160px;
-  }
-}
 
-@media (max-width: 368px) {
-  h1#title-celebration {
-    top: 8%;
-    font-size: 32px;
-     
+  #text-invitation {
+    font-size: 30px;
+    margin-bottom: 30px;
   }
-  h2#title-baby {
-    font-size: 32px;
-    top: 14%;
-     
-  }
-  .contenedor {
-    top: 25%;
-  }
-   audio {
-    width: 130px;
+  #date {
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 }
