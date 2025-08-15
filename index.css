@@ -31,7 +31,7 @@ h1#title-celebration {
   font-style: normal;
   color: #b36317;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 20%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
@@ -42,7 +42,7 @@ h2#title-baby {
   font-size: 79px;
   font-style: italic;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
@@ -149,102 +149,67 @@ audio {
 /**************************/
 @media (max-width: 1321px) {
   h1#title-celebration {
-    top: 30%;
+    font-size: 77px;
+
+    top: 17%;
+
+    letter-spacing: 8px;
   }
   h2#title-baby {
-    top: 49%;
+    font-size: 77px;
+
+    top: 35%;
+
+    letter-spacing: 8px;
   }
 }
 
 @media (max-width: 991px) {
   h1#title-celebration {
-    font-size: 65px;
-    top: 20%;
+    font-size: 62px;
+    top: 18%;
     letter-spacing: 5px;
   }
   h2#title-baby {
-    font-size: 65px;
-    top: 35%;
+    font-size: 62px;     
     letter-spacing: 5px;
   }
 }
-
 
 @media (max-width: 767px) {
   h1#title-celebration {
-    font-size: 50px;
-    top: 14%;
+    font-size: 47px;
+    top: 12%;
     letter-spacing: 2px;
   }
   h2#title-baby {
-    font-size: 50px;
-    top: 27%;
+    font-size: 47px;
+    top: 23%;
     letter-spacing: 2px;
   }
 }
-
-
-@media (max-width: 575px) {
-h1#title-celebration {
-    font-size: 54px;
-    top: 20%;
+ 
+@media (max-width: 712px) {
+  h1#title-celebration {
+    font-size: 47px;
+    top: 5%;
     letter-spacing: 2px;
   }
   h2#title-baby {
-   font-size: 54px;
-    top: 35%;
+    font-size: 47px;
+    top: 11%;
     letter-spacing: 2px;
   }
 }
-
-@media (max-width: 481px) {
-h1#title-celebration {
-    font-size: 49px;
-    top: 15%;
-     
+@media (max-width: 360px) {
+  h1#title-celebration {
+    font-size: 40px;
+    top: 7%;
+    letter-spacing: 2px;
   }
   h2#title-baby {
-   font-size: 49px;
-    top: 27%;
-     
-  }
-}
-
-@media (max-width: 413px) {
-h1#title-celebration {
     font-size: 40px;
     top: 13%;
-     
-  }
-  h2#title-baby {
-   font-size: 40px;
-    top: 22%;
-     
-  }
-}
-
-@media (max-width: 383px) {
-h1#title-celebration {
-    font-size: 35px;
-    top: 13%;
-     
-  }
-  h2#title-baby {
-   font-size: 35px;
-    top: 22%;
-     
-  }
-}
-
-@media (max-width: 341px) {
-h1#title-celebration {
-    font-size: 30px;
-    top: 11%;
-     
-  }
-  h2#title-baby {
-   font-size: 30px;
-    top: 18%;
-     
+    letter-spacing: 2px;
   }
 }
