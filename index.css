@@ -35,13 +35,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;      /* Ocupar casi todo el ancho de la imagen */
+  max-width: 800px; /* Limita para que no sea exagerado en pantallas grandes */
 }
 
 #title-celebration,
 #title-baby {
    
   margin: 0;
-  font-weight: 600;
+  font-weight: 400;
+ 
 }
 
 #title-celebration {
