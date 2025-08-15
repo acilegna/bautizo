@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("img/bbs2.png");
+  background-image: url("img/nube.png");
   background-color: #6c8394;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,14 +35,33 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 90%;      /* Ocupar casi todo el ancho de la imagen */
-  max-width: 800px; /* Limita para que no sea exagerado en pantallas grandes */
- 
-  -webkit-text-stroke: 1px #b36317;
+  width: 90%;      /* Ocupa casi todo el ancho de la imagen */
+  max-width: 800px; /* Limita el tamaño en pantallas grandes */
+
+  -webkit-text-stroke: 1px #b36317; /* Borde dorado en navegadores WebKit */
   
+  /* Animación */
+  opacity: 0;              /* Comienza invisible */
+  animation: slideFade 1s forwards;
 }
 
+/* Para h2, aparece un poco después */
+.contenedor-titulos h2 {
+  animation-delay: 0.5s;
+}
 
+@keyframes slideFade {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%); /* Comienza un poco más arriba */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); /* Termina centrado */
+  }
+}
+
+ 
 #title-celebration,
 #title-baby {
    
