@@ -61,9 +61,8 @@
           </audio>
         </div>
 
-        <p id="mjs-baptism">Señor, hoy me presentan ante ti para ser bañado con la gracia de tu amor, toma mi pequeño
-          corazón en tus
-          benditas manos y jamás te separes de mí.</p>
+         
+          <p id="mjs-baptism"></p>
         <h4 id="text-invitation">Tenemos el gusto de invitarte en este día tan especial</h4>
         <div class="lineas-con-texto">
           <hr>
@@ -113,7 +112,21 @@
 
 
       </div>
+<script>
+  const text = `Señor, hoy me presentan ante ti para ser bañado con la gracia de tu amor, toma mi pequeño corazón en tus benditas manos y jamás te separes de mí.`;
+  const p = document.getElementById("mjs-baptism");
+  let index = 0;
 
+  function typeWriter() {
+    if (index < text.length) {
+      p.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 50); // Velocidad de escritura (ms)
+    }
+  }
+
+  window.onload = typeWriter; // Ejecuta al cargar la página
+</script>
     </div>
   </div>
 </body>
