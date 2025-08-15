@@ -183,9 +183,11 @@ audio {
     letter-spacing: 2px;
   }
   .cont-baptism {
-    
     margin: 0 10px; /* márgenes iguales */
-    
+  }
+
+  #text-invitation {
+    font-size: 30px;
   }
 }
 
