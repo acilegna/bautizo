@@ -27,7 +27,7 @@ body {
 
 h1#title-celebration {
   font-family: "Italianno", cursive;
-  font-size: 65px;
+  font-size: 77px;
   font-style: normal;
   color: #b36317;
   position: absolute; /* Necesario para que top y left funcionen */
@@ -39,10 +39,10 @@ h1#title-celebration {
 h2#title-baby {
   color: #b36317;
   font-family: "Italianno", cursive;
-  font-size: 67px;
+  font-size: 79px;
   font-style: italic;
   position: absolute; /* Necesario para que top y left funcionen */
-  top: 39%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centrar completamente */
   letter-spacing: 8px;
@@ -61,7 +61,6 @@ h2#title-baby {
   background-color: rgba(3, 168, 168, 0);
   margin: 0 60px; /* márgenes iguales */
   text-align: center;
-  margin-top: -80px;
 }
 .contenedor-img {
   /*   height: 100vh;  
@@ -148,3 +147,104 @@ audio {
   font-family: "Cormorant Garamond", serif;
 }
 /**************************/
+@media (max-width: 1316px) {
+  h1#title-celebration {
+    top: 30%;
+  }
+  h2#title-baby {
+    top: 49%;
+  }
+}
+@media (max-width: 992px) {
+  h1#title-celebration {
+    top: 20%;
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  h2#title-baby {
+    font-size: 60px;
+    top: 35%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1#title-celebration {
+    top: 17%;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  h2#title-baby {
+    font-size: 40px;
+    top: 28%;
+    letter-spacing: 3px;
+  }
+
+  .cont-baptism {
+    margin: 0 20px; /* márgenes iguales */
+  }
+  #text-invitation {
+    font-size: 30px;
+  }
+
+  #date {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 575px) {
+  h1#title-celebration {
+    top: 25%;
+    font-size: 47px;
+    letter-spacing: 3px;
+  }
+  h2#title-baby {
+    font-size: 47px;
+    top: 38%;
+    letter-spacing: 3px;
+  }
+
+  #text-invitation {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 519px) {
+  h1#title-celebration {
+    top: 19%;
+    font-size: 47px;
+    letter-spacing: 3px;
+  }
+  h2#title-baby {
+    font-size: 47px;
+    top: 32%;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 475px) {
+  h1#title-celebration {
+    top: 17%;
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  h2#title-baby {
+    font-size: 36px;
+    top: 27%;
+    letter-spacing: 1px;
+  }
+
+  #mjs-baptism {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  #text-invitation {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  #date {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+}
