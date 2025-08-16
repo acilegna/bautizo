@@ -15,14 +15,30 @@
   background-color: #e7f4f7;
   /*    margin-top: -90px !important; */
 }
+.bg {
+  background: url("img/nube.png") center/cover no-repeat #6c8394;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* para que quede detrás */
+}
 
-body {
+/* body {
   background-image: url("img/nube.png");
   background-color: #6c8394;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+} */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  position: relative;
+  background: none; /* quitamos el fondo del body */
 }
 
 .contenedor-img {
