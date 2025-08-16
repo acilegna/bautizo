@@ -16,7 +16,7 @@
   /*    margin-top: -90px !important; */
 }
 .bg {
-   position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -27,7 +27,6 @@
   background-position: center;
   background-size: cover;
   z-index: -1;
-  will-change: transform; /* ayuda a fijarlo en móviles */
 }
 
 /* body {
@@ -40,10 +39,17 @@
 } */
 
 body {
- margin: 0;
+  margin: 0;
   background: none;
 }
 
+/* main tendrá el scroll en vez del body */
+main {
+  position: relative;
+  z-index: 1;
+  overflow-y: auto;
+  min-height: 100vh;
+}
 .contenedor-img {
   position: relative;
 }
